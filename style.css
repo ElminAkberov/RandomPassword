@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 26px;
+    color: #4a90e2; 
+    margin-bottom: 25px;
+}
+.checkbox3{margin-right: 65px;}
+.checkbox4{margin-right: 2px;}
+#display {
+    background-color: #f0f0f0;
+    padding: 18px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.password_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.checkboxs {
+    display: grid;
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+}
+.checkboxs input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(2);
+}
+.checkboxs label {
+    font-size: 16px;
+    color: #4a4a4a; 
+    cursor: pointer;
+}
+.btn{color: #fff !important;} 
